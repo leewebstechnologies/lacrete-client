@@ -1,0 +1,18 @@
+.navbar {
+  background-color: 	  #e6ffe6;
+}
+.navbar-nav {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nav-link {
+  color: #25b60f;
+}
+
+.icon {
+  font-size: 20px;
+  margin-right: 10px;
+  color: #444;
+  cursor: pointer;
+}

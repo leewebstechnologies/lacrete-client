@@ -1,0 +1,21 @@
+.wrapper {
+  background-color: #e6ffe6;
+  display: flex;
+  justify-content: space-between;
+}
+.content {
+  display: flex;
+  flex: 1;
+  background-color: #e6ffe6;
+  padding: 30px 0;
+  margin-left: 250px;
+}
+
+.btn {
+  color: white;
+  border: 1px solid green;
+  /* padding: 0px 20px; */
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px;
+}
