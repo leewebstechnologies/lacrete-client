@@ -6,6 +6,7 @@ import "./globals.css";
 import Navbar from "./components/navbar/Navbar";
 import BootstrapClient from "./components/BootstrapClient";
 
+
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
@@ -41,6 +42,7 @@ export default function RootLayout({
         <Navbar />
         {children}
         <BootstrapClient />
+   
       </body>
     </html>
   );

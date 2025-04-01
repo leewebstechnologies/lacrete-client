@@ -89,7 +89,7 @@ const Slider = () => {
         <div className="content">
           <h3>Looking for a quality constructor for your next project?</h3>   
         </div>
-        <button className="btn">GET IN TOUCH</button>
+        <button className="contact-btn">GET IN TOUCH</button>
       </div>
     </>
   );

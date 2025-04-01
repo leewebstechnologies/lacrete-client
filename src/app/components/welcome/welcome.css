@@ -1,0 +1,61 @@
+.welcome {
+  display: flex;
+  width: 100%;
+
+}
+
+.banner3 {
+  width: 50%;
+  max-height: fit-content;
+  /* height: 3%; */
+}
+
+.years {
+  width: 50%;
+  
+  margin: auto 20px auto 50px;
+  /* margin: 20px; */
+}
+
+.hr {
+  border: 2px solid #25b60f;
+  margin-top: 2px;
+  width: 90%;
+}
+
+.circle-arrow {
+  margin-right: 10px;
+}
+
+.icons {
+  display: flex;
+  flex-direction: column;
+  line-height: 40px;
+}
+
+.icon {
+  /* cursor: none; */
+}
+
+.background {
+  background-color: #e6ffe6;;
+}
+
+.backgroundItems {
+  display: flex;
+}
+
+.item {
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.itemIcon {
+  width: 40px;
+  height: 40px;
+}

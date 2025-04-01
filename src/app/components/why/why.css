@@ -1,0 +1,41 @@
+.why {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  background-color: #f9f9f9;
+}
+
+.whyItems {
+  display: flex;
+}
+
+.whyContent {
+  width: 50%;
+  margin: 20px auto;
+}
+
+.video-container {
+  width: 80%;
+  max-width: 800px;
+  margin: 20px auto;
+  position: relative;
+}
+
+.video-border {
+  border: 10px solid #25b60f;
+  border-radius: 15px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.video-border:hover {
+  border-color: #e6ffe6;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+}
+
+video {
+  width: 100%;
+  display: block;
+}
