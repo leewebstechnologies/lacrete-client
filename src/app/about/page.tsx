@@ -2,7 +2,9 @@ import "./about.css";
 
 const About = () => {
   return (
-    <div>About</div>
-  )
-}
-export default About
+    <>
+     <h1>About</h1>
+    </>
+  );
+};
+export default About;
