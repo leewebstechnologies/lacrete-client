@@ -11,32 +11,32 @@ const Navbar = () => {
       </Link>
       <ul className={styles.list}>
         <li className={styles.listItem}>
-          <Link className={styles.item} href="/services/home">
+          <Link className={styles.item} href="/products/home">
             Home
           </Link>
         </li>
         <li className={styles.listItem}>
-          <Link className={styles.item} href="/services/plan&drawings">
+          <Link className={styles.item} href="/products/plan&drawings">
             Building / Civil Designs
           </Link>
         </li>
         <li className={styles.listItem}>
-          <Link className={styles.item} href="/services/plan&drawings">
+          <Link className={styles.item} href="/products/plan&drawings">
             Building & Civil Construction
           </Link>
         </li>
         <li className={styles.listItem}>
-          <Link className={styles.item} href="/services/renovation&maintenance">
+          <Link className={styles.item} href="/products/renovation&maintenance">
             Building Renovation & Maintenance
           </Link>
         </li>
         <li className={styles.listItem}>
-          <Link className={styles.item} href="/services/steel&planning">
+          <Link className={styles.item} href="/products/steel&planning">
             Steel Works & Planning
           </Link>
         </li>
         <li className={styles.listItem}>
-          <Link className={styles.item} href="/services/steel&planning">
+          <Link className={styles.item} href="/products/steel&planning">
             Contact Us
           </Link>
         </li>
