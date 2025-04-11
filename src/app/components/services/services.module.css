@@ -1,0 +1,19 @@
+.container {
+  padding: 0 100px;
+}
+
+.title {
+  font-size: 30px;
+  border-bottom: 4px solid #25b60f;
+  width: max-content;
+}
+
+.subtitle {
+  font-size: 50px;
+  color: rgb(2, 73, 2);
+}
+
+.services {
+  width: 500px;
+  height: 500px;
+}
