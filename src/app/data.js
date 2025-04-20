@@ -189,16 +189,19 @@ export const review = [
 export const posts = [
   {
     id: 1,
+    image: two,
     title: "The Art of Mindful Living",
     summary: "Discover how mindfulness can transform your daily life.",
   },
   {
     id: 2,
+    image: four,
     title: "Exploring the World through Travel",
     summary: "A journey through breathtaking destinations and hidden gems.",
   },
   {
     id: 3,
+    image: five,
     title: "Healthy Recipes for a Better You",
     summary: "Tasty and nutritious recipes that are easy to make at home.",
   },
