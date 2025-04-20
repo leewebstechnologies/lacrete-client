@@ -6,9 +6,7 @@ interface CircleProps {
 
 const Circle = (props: CircleProps) => {
   return (
-    <div className={styles.circle} style={{...props}}>
-
-    </div>
+    <div className="circle" style={{...props}} />
   )
 }
 export default Circle

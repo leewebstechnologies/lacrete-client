@@ -10,29 +10,30 @@ const Services = () => {
       <h1 className={styles.title}>What we can do</h1>
       <h1 className={styles.subtitle}>Services we can help you with</h1>
       <div className={styles.services}>
-        {services.map((item) => (
-          <Link passHref key={item.id} href={`/products/${item.name}`}>
-            <div className={styles.item}>
-              <span className={styles.cat}>{item.title}</span>
+        {services.map((service) => (
+          <Link passHref key={service.id} href={`/products/${service.name}`}>
+            <div className={styles.service}>
+              <div className={styles.desc}>{service.desc}</div>
+              <span className={styles.cat}>{service.title}</span>
               <div className={styles.media}>
-                {item.video ? (
+                {service.video ? (
                   <video
                     controls
-                    src={item.video}
+                    src={service.video}
                     autoPlay
-                    loop
                     muted
+                    loop
                     className={styles.video}
                   />
                 ) : (
                   <Image
-                    src={item.photo}
+                    src={service.photo}
                     alt="photo"
                     width={100}
                     height={100}
                     layout="responsive"
                     objectFit="cover"
-                    className="photo"
+                    className={styles.image}
                   />
                 )}
               </div>

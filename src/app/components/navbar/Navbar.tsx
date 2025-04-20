@@ -11,32 +11,27 @@ const Navbar = () => {
       </Link>
       <ul className={styles.list}>
         <li className={styles.listItem}>
-          <Link className={styles.item} href="/products/home">
+          <Link className={styles.item} href="/">
             Home
           </Link>
         </li>
         <li className={styles.listItem}>
-          <Link className={styles.item} href="/products/plan&drawings">
-            Building / Civil Designs
+          <Link className={styles.item} href="/about">
+            About Us
           </Link>
         </li>
         <li className={styles.listItem}>
-          <Link className={styles.item} href="/products/plan&drawings">
-            Building & Civil Construction
+          <Link className={styles.item} href="/portfolio">
+            Portfolio
           </Link>
         </li>
         <li className={styles.listItem}>
-          <Link className={styles.item} href="/products/renovation&maintenance">
-            Building Renovation & Maintenance
+          <Link className={styles.item} href="/blog">
+            Blog
           </Link>
         </li>
         <li className={styles.listItem}>
-          <Link className={styles.item} href="/products/steel&planning">
-            Steel Works & Planning
-          </Link>
-        </li>
-        <li className={styles.listItem}>
-          <Link className={styles.item} href="/products/steel&planning">
+          <Link className={styles.item} href="/contact">
             Contact Us
           </Link>
         </li>
@@ -71,12 +66,6 @@ const Navbar = () => {
             <i className="icon fa-brands fa-square-whatsapp"></i>
           </Link>
         </li>
-        <Link
-          className={styles.icon}
-          href="https://web.facebook.com/Lacreteconcept"
-        >
-          <i className="icon fa-brands fa-square-facebook"></i>
-        </Link>
       </ul>
     </div>
   );
